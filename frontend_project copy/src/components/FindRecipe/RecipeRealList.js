@@ -1,0 +1,21 @@
+import { useState, useEffect } from "react";
+import Recipe from "./Recipe";
+
+const RecipeRealList = () => {
+  const [recipes2, setRecipes2] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:8080/recipes")
+      .then((response) => response.json())
+      .then((data) => setRecipes2(data));
+   
+  }, []);
+
+  return (
+    <>
+      <Recipe recipes2={recipes2} />
+    </>
+  );
+};
+
+export default RecipeRealList;
