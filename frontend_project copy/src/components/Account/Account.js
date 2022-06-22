@@ -42,12 +42,12 @@ const Account = () => {
         Log in
       </Button>
       <br />
-      <Link to="/homepage">
+      <Link to="/homepage" style={{ textDecoration: 'none' }}>
         <h4 className="forgot">Forgotten password?</h4>
       </Link>
       <hr />
       <br /> <br />
-      <Link to='/account/createAccount'>
+      <Link to='/account/createAccount' style={{ textDecoration: 'none' }}>
       <Button
         style={{
           borderRadius: 5,

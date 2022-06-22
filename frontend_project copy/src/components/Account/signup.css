@@ -1,0 +1,11 @@
+.signup {
+    height: 600px;
+    width: 600px;
+    text-align: center;
+}
+
+
+.paragraph {
+    text-align: justify;
+    text-justify: inter-word;
+}

@@ -6,7 +6,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 const Navbar = () => {
     return (
         <header className={classes.header}>
-            <div className={classes.logo}>Recipe Gen <FastfoodIcon fontSize="large" /></div>
+            <div className={classes.logo}>Guide Bite <FastfoodIcon fontSize="large" /></div>
             <nav className={classes.nav}>
                 <ul>
                     <li>

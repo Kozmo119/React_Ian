@@ -31,7 +31,7 @@ function App() {
         <Route path="/add-recipe">
           <RecipeContainer/>
         </Route>
-        <Route path="/account">
+        <Route path="/account" exact>
           <Account />
         </Route>
         <Route path="/account/createAccount">

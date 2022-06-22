@@ -12,6 +12,7 @@ const Recipe = ({ recipes2 }) => {
             return recipe.name;}
       })
     }
+    console.log(filterChecker)
 
 
   return (
