@@ -2,7 +2,6 @@
     height: 410px;
     width: 500px;
     text-align: center;
-    border: 0.1px  outset black;
     padding-top: 40px;
     border-radius: 10px;
     /* box-shadow: 0 0 0 1px black; */
@@ -10,4 +9,12 @@
 
 .forgot {
     text-align: center;
+}
+
+.poster {
+    margin: auto;
+    display: block;
+    border-radius: 8%;
+    height: 350px;
+    width: 550px;
 }

@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 
 const CreateAccount = () => {
   return (
+      <div className="parent">
     <div className="signup">
       <form>
         <h1>Sign up</h1>
@@ -75,7 +76,7 @@ const CreateAccount = () => {
           }}
         >
           People who use our service may have uploaded your contact information
-          to Guide Bite. Learn more.
+          to Guide Bite. <a href="https://google.com">Learn more.</a>
         </p>
         <br />
         <p
@@ -104,7 +105,14 @@ const CreateAccount = () => {
       </Button>
       </Link>
       </form>
+      <br /><br /><br />
     </div>
+    <img src="https://images.squarespace-cdn.com/content/v1/53b839afe4b07ea978436183/1608506169128-S6KYNEV61LEP5MS1UIH4/traditional-food-around-the-world-Travlinmad.jpg"
+    alt="loading"
+    className="poster"
+    />
+
+    </div >
   );
 };
 

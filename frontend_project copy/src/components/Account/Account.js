@@ -32,7 +32,7 @@ const Account = () => {
       <Button
         style={{
           borderRadius: 5,
-          backgroundColor: "#e0dfdc",
+          backgroundColor: "#74b8b2",
           fontSize: "20px",
           color: "white",
           minWidth: "400px",
@@ -45,8 +45,7 @@ const Account = () => {
       <Link to="/homepage" style={{ textDecoration: 'none' }}>
         <h4 className="forgot">Forgotten password?</h4>
       </Link>
-      <hr />
-      <br /> <br />
+      <br />
       <Link to='/account/createAccount' style={{ textDecoration: 'none' }}>
       <Button
         style={{
