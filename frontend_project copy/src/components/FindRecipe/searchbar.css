@@ -30,6 +30,8 @@
   padding: initial;
   margin-top: 10px;
   padding-top: 50px; 
+  margin-left: 50px;
+  margin-right: 50px;
   /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -111,4 +113,8 @@ space-evenly: */
   border: 1px solid black;
   margin-top: 0;
   
+}
+
+test1 {
+  border: 1px solid black;
 }
