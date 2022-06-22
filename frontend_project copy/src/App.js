@@ -7,6 +7,7 @@ import RecipeListContainer from "./components/FindRecipe/RecipeListContainer";
 import RecipeContainer from "./components/AddRecipe/RecipeContainer";
 import Recipe from "./components/FindRecipe/Recipe"
 import RecipeRealList from "./components/FindRecipe/RecipeRealList";
+import RecipeReviewCard from "./components/FindRecipe/RecipeReviewCard";
 
 function App() {
   

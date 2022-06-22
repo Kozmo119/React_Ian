@@ -23,7 +23,7 @@ const RecipeListContainer = () => {
 
   return (
     <>
-        
+        {/* <h1 className="title1">Recipe Lists</h1> */}
         <RecipeSearch recipes={recipes} setRecipes={setRecipes} />
         {/* <RecipeList recipes={recipes} /> */}
      
