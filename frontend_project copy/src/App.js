@@ -8,6 +8,8 @@ import RecipeContainer from "./components/AddRecipe/RecipeContainer";
 import Recipe from "./components/FindRecipe/Recipe"
 import RecipeRealList from "./components/FindRecipe/RecipeRealList";
 import RecipeReviewCard from "./components/FindRecipe/RecipeReviewCard";
+import Account from "./components/Account/Account"
+import CreateAccount from "./components/Account/CreateAccount";
 
 function App() {
   
@@ -29,8 +31,11 @@ function App() {
         <Route path="/add-recipe">
           <RecipeContainer/>
         </Route>
-        <Route path="/contact">
-          <Contact />
+        <Route path="/account">
+          <Account />
+        </Route>
+        <Route path="/account/createAccount">
+          <CreateAccount />
         </Route>
       </Switch>
     </Layout>

@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import classes from './Navbar.module.css'
 import FastfoodIcon from '@mui/icons-material/Fastfood';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const Navbar = () => {
     return (
@@ -18,7 +19,7 @@ const Navbar = () => {
                        <NavLink to='/add-recipe' activeClassName={classes.active}>Add Recipe</NavLink>
                    </li>
                    <li>
-                       <NavLink to='/contact' activeClassName={classes.active}>Contact</NavLink>
+                       <NavLink to='/account' activeClassName={classes.active}><AccountCircleIcon fontSize="large"/></NavLink>
                    </li>
                 
                 </ul>

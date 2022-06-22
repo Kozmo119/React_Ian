@@ -71,7 +71,7 @@ const RecipeSearch = ({ recipes }) => {
       }
     })
     .map((recipe) => {
-      return (
+      return (<>
         <Card
           sx={{ maxWidth: 300 }}
           key={recipe.id}
@@ -79,7 +79,7 @@ const RecipeSearch = ({ recipes }) => {
           style={{ border: "none", boxShadow: "none" }}
         >
           <CardHeader title={recipe.name} subheader={recipe.cuisine} />
-          <Link to='/homepage'>
+          <Link to={`/find-recipe/${recipe.id}`}>
           <CardMedia
             className="image"
             component="img"
@@ -88,6 +88,7 @@ const RecipeSearch = ({ recipes }) => {
     
           />
           </Link>
+
           <CardContent>
             <Typography variant="body2" color="text.secondary"></Typography>
           </CardContent>
@@ -112,22 +113,23 @@ const RecipeSearch = ({ recipes }) => {
             </CardContent>
           </Collapse>
         </Card>
-
+        {/* <h1>hello</h1> */}
+        </>
         
-        // <div className="card" key={recipe.id}>
-        //   <Link to={`/find-recipe/${recipe.id}`}>
-        //     <img className="image" src={recipe.image} alt="waiting" />
-        //   </Link>
-        //   <h2 className="title">{recipe.name}</h2>
-        //   <Link to="/homepage">
-        //     <ArrowCircleLeftIcon
-        //       fontSize="large"
-        //       style={{
-        //         color: "black",
-        //       }}
-        //     />
-        //   </Link>
-        // </div>
+       /* <div className="card" key={recipe.id}>
+          <Link to={`/find-recipe/${recipe.id}`}>
+            <img className="image" src={recipe.image} alt="waiting" />
+          </Link>
+          <h2 className="title">{recipe.name}</h2>
+          <Link to="/homepage">
+            <ArrowCircleLeftIcon
+              fontSize="large"
+              style={{
+                color: "black",
+              }}
+            />
+          </Link>
+        </div> */
       );
     });
 

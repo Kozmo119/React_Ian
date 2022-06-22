@@ -11,6 +11,14 @@ const RecipeRealList = () => {
    
   }, []);
 
+  useEffect(() => {
+    console.log(recipes2)
+
+  
+
+  }, [recipes2]);
+  
+
   return (
     <>
       <Recipe recipes2={recipes2} />
